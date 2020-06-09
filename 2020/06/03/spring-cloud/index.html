@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  
+  <title>Spring Cloud | Il Mostro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="服务注册与发现 EurekaZooKeeperConsulNacos Discovery 服务调用 RibbonLoadBalancerOpenFeign 服务降级/熔断/限流 HystrixResilience4jSentinel 服务网关 ZuulGateway 服务配置 ConfigNacos Config 服务总线 BusNacos 消息队列 RabbitMQActiveMQRocket">
+<meta name="keywords" content="Java,Spring,Cloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring Cloud">
+<meta property="og:url" content="https://ileiwang.cc/2020/06/03/spring-cloud/index.html">
+<meta property="og:site_name" content="Il Mostro">
+<meta property="og:description" content="服务注册与发现 EurekaZooKeeperConsulNacos Discovery 服务调用 RibbonLoadBalancerOpenFeign 服务降级/熔断/限流 HystrixResilience4jSentinel 服务网关 ZuulGateway 服务配置 ConfigNacos Config 服务总线 BusNacos 消息队列 RabbitMQActiveMQRocket">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2020-06-09T05:11:08.277Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Spring Cloud">
+<meta name="twitter:description" content="服务注册与发现 EurekaZooKeeperConsulNacos Discovery 服务调用 RibbonLoadBalancerOpenFeign 服务降级/熔断/限流 HystrixResilience4jSentinel 服务网关 ZuulGateway 服务配置 ConfigNacos Config 服务总线 BusNacos 消息队列 RabbitMQActiveMQRocket">
+  
+    <link rel="alternate" href="/atom.xml" title="Il Mostro" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Il Mostro</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Lei&#39;s Blog</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ileiwang.cc"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-spring-cloud" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/06/03/spring-cloud/" class="article-date">
+  <time datetime="2020-06-03T15:59:00.000Z" itemprop="datePublished">2020-06-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Spring/">Spring</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Spring Cloud
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h2 id="服务注册与发现"><a href="#服务注册与发现" class="headerlink" title="服务注册与发现"></a>服务注册与发现</h2><hr>
+<h3 id="Eureka"><a href="#Eureka" class="headerlink" title="Eureka"></a><a href="https://spring.io/projects/spring-cloud-netflix" target="_blank" rel="noopener">Eureka</a></h3><h3 id="ZooKeeper"><a href="#ZooKeeper" class="headerlink" title="ZooKeeper"></a><a href="https://spring.io/projects/spring-cloud-zookeeper" target="_blank" rel="noopener">ZooKeeper</a></h3><h3 id="Consul"><a href="#Consul" class="headerlink" title="Consul"></a><a href="https://spring.io/projects/spring-cloud-consul" target="_blank" rel="noopener">Consul</a></h3><h3 id="Nacos-Discovery"><a href="#Nacos-Discovery" class="headerlink" title="Nacos Discovery"></a><a href="https://spring-cloud-alibaba-group.github.io/github-pages/greenwich/spring-cloud-alibaba.html#_spring_cloud_alibaba_nacos_discovery" target="_blank" rel="noopener">Nacos Discovery</a></h3><hr>
+<h2 id="服务调用"><a href="#服务调用" class="headerlink" title="服务调用"></a>服务调用</h2><hr>
+<h3 id="Ribbon"><a href="#Ribbon" class="headerlink" title="Ribbon"></a><a href="https://spring.io/projects/spring-cloud-netflix" target="_blank" rel="noopener">Ribbon</a></h3><h3 id="LoadBalancer"><a href="#LoadBalancer" class="headerlink" title="LoadBalancer"></a><a href="">LoadBalancer</a></h3><h3 id="OpenFeign"><a href="#OpenFeign" class="headerlink" title="OpenFeign"></a><a href="https://spring.io/projects/spring-cloud-openfeign" target="_blank" rel="noopener">OpenFeign</a></h3><hr>
+<h2 id="服务降级-熔断-限流"><a href="#服务降级-熔断-限流" class="headerlink" title="服务降级/熔断/限流"></a>服务降级/熔断/限流</h2><hr>
+<h3 id="Hystrix"><a href="#Hystrix" class="headerlink" title="Hystrix"></a><a href="https://spring.io/projects/spring-cloud-netflix" target="_blank" rel="noopener">Hystrix</a></h3><h3 id="Resilience4j"><a href="#Resilience4j" class="headerlink" title="Resilience4j"></a><a href="https://github.com/resilience4j/resilience4j" target="_blank" rel="noopener">Resilience4j</a></h3><h3 id="Sentinel"><a href="#Sentinel" class="headerlink" title="Sentinel"></a><a href="https://sentinelguard.io/zh-cn/" target="_blank" rel="noopener">Sentinel</a></h3><hr>
+<h2 id="服务网关"><a href="#服务网关" class="headerlink" title="服务网关"></a>服务网关</h2><hr>
+<h3 id="Zuul"><a href="#Zuul" class="headerlink" title="Zuul"></a><a href="https://spring.io/projects/spring-cloud-netflix" target="_blank" rel="noopener">Zuul</a></h3><h3 id="Gateway"><a href="#Gateway" class="headerlink" title="Gateway"></a><a href="https://spring.io/projects/spring-cloud-gateway" target="_blank" rel="noopener">Gateway</a></h3><hr>
+<h2 id="服务配置"><a href="#服务配置" class="headerlink" title="服务配置"></a>服务配置</h2><hr>
+<h3 id="Config"><a href="#Config" class="headerlink" title="Config"></a><a href="https://spring.io/projects/spring-cloud-config" target="_blank" rel="noopener">Config</a></h3><h3 id="Nacos-Config"><a href="#Nacos-Config" class="headerlink" title="Nacos Config"></a><a href="https://spring-cloud-alibaba-group.github.io/github-pages/greenwich/spring-cloud-alibaba.html#_spring_cloud_alibaba_nacos_config" target="_blank" rel="noopener">Nacos Config</a></h3><hr>
+<h2 id="服务总线"><a href="#服务总线" class="headerlink" title="服务总线"></a>服务总线</h2><hr>
+<h3 id="Bus"><a href="#Bus" class="headerlink" title="Bus"></a><a href="https://spring.io/projects/spring-cloud-bus" target="_blank" rel="noopener">Bus</a></h3><h3 id="Nacos"><a href="#Nacos" class="headerlink" title="Nacos"></a><a href="http://dubbo.apache.org/zh-cn/docs/user/references/registry/nacos.html" target="_blank" rel="noopener">Nacos</a></h3><hr>
+<h2 id="消息队列"><a href="#消息队列" class="headerlink" title="消息队列"></a>消息队列</h2><hr>
+<h3 id="RabbitMQ"><a href="#RabbitMQ" class="headerlink" title="RabbitMQ"></a><a href="https://www.rabbitmq.com/" target="_blank" rel="noopener">RabbitMQ</a></h3><h3 id="ActiveMQ"><a href="#ActiveMQ" class="headerlink" title="ActiveMQ"></a><a href="https://activemq.apache.org/" target="_blank" rel="noopener">ActiveMQ</a></h3><h3 id="RocketMQ"><a href="#RocketMQ" class="headerlink" title="RocketMQ"></a><a href="http://rocketmq.apache.org/" target="_blank" rel="noopener">RocketMQ</a></h3><h3 id="Kafka"><a href="#Kafka" class="headerlink" title="Kafka"></a><a href="http://kafka.apache.org/" target="_blank" rel="noopener">Kafka</a></h3><h3 id="Spring-Cloud-Stream"><a href="#Spring-Cloud-Stream" class="headerlink" title="Spring Cloud Stream"></a><a href="https://spring.io/projects/spring-cloud-stream" target="_blank" rel="noopener">Spring Cloud Stream</a></h3><hr>
+<h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><hr>
+<h3 id="Ehcache"><a href="#Ehcache" class="headerlink" title="Ehcache"></a><a href="http://www.ehcache.org/" target="_blank" rel="noopener">Ehcache</a></h3><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a><a href="https://redis.io/" target="_blank" rel="noopener">Redis</a></h3><h3 id="Memcached"><a href="#Memcached" class="headerlink" title="Memcached"></a><a href="https://www.memcached.org/" target="_blank" rel="noopener">Memcached</a></h3><hr>
+<h2 id="教程-amp-文档"><a href="#教程-amp-文档" class="headerlink" title="教程&amp;文档"></a>教程&amp;文档</h2><hr>
+<h3 id="Spring-Cloud中文文档"><a href="#Spring-Cloud中文文档" class="headerlink" title="Spring Cloud中文文档"></a><a href="https://www.bookstack.cn/read/spring-cloud-docs/docs-index.md" target="_blank" rel="noopener">Spring Cloud中文文档</a></h3><h3 id="尚硅谷SpringCloud"><a href="#尚硅谷SpringCloud" class="headerlink" title="尚硅谷SpringCloud"></a><a href="https://www.bilibili.com/video/BV18E411x7eT" target="_blank" rel="noopener">尚硅谷SpringCloud</a></h3><h3 id="尚硅谷SpringBoot"><a href="#尚硅谷SpringBoot" class="headerlink" title="尚硅谷SpringBoot"></a><a href="https://www.bilibili.com/video/BV1Et411Y7tQ" target="_blank" rel="noopener">尚硅谷SpringBoot</a></h3><h3 id="千锋Java微服务架构"><a href="#千锋Java微服务架构" class="headerlink" title="千锋Java微服务架构"></a><a href="https://www.bilibili.com/video/BV1mt41127Rj" target="_blank" rel="noopener">千锋Java微服务架构</a></h3><h3 id="Hutool"><a href="#Hutool" class="headerlink" title="Hutool"></a><a href="https://www.hutool.cn/" target="_blank" rel="noopener">Hutool</a></h3><h3 id="Spring-Boot参考指南"><a href="#Spring-Boot参考指南" class="headerlink" title="Spring Boot参考指南"></a><a href="https://www.springcloud.cc/spring-boot.html" target="_blank" rel="noopener">Spring Boot参考指南</a></h3><h3 id="Spring-Boot-Docs-https-docs-spring-io-spring-boot-docs-2-3-0-RELEASE-reference-html-index-html"><a href="#Spring-Boot-Docs-https-docs-spring-io-spring-boot-docs-2-3-0-RELEASE-reference-html-index-html" class="headerlink" title="[Spring Boot Docs(https://docs.spring.io/spring-boot/docs/2.3.0.RELEASE/reference/html/index.html)"></a>[Spring Boot Docs(<a href="https://docs.spring.io/spring-boot/docs/2.3.0.RELEASE/reference/html/index.html" target="_blank" rel="noopener">https://docs.spring.io/spring-boot/docs/2.3.0.RELEASE/reference/html/index.html</a>)</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ileiwang.cc/2020/06/03/spring-cloud/" data-id="ckb38bif6000398up4uytc7eg" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cloud/">Cloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Spring/">Spring</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/06/02/book-collections/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Book Collections</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Collections/">Collections</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Spring/">Spring</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Article/">Article</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/">Book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloud/">Cloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Collections/">Collections</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PHP/">PHP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Spring/">Spring</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Website/">Website</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Article/" style="font-size: 10px;">Article</a> <a href="/tags/Book/" style="font-size: 10px;">Book</a> <a href="/tags/Cloud/" style="font-size: 10px;">Cloud</a> <a href="/tags/Collections/" style="font-size: 20px;">Collections</a> <a href="/tags/Java/" style="font-size: 15px;">Java</a> <a href="/tags/PHP/" style="font-size: 10px;">PHP</a> <a href="/tags/Spring/" style="font-size: 10px;">Spring</a> <a href="/tags/Website/" style="font-size: 10px;">Website</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/06/03/spring-cloud/">Spring Cloud</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/02/book-collections/">Book Collections</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/23/php-collections/">PHP Collections</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/22/article-collections/">Article Collections</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/01/java-collections/">Java Collections</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Lei Wang<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
