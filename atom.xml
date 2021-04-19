@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ileiwang.cc/"/>
-  <updated>2020-06-09T09:48:44.354Z</updated>
+  <updated>2020-11-10T03:35:12.576Z</updated>
   <id>https://ileiwang.cc/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Machine Learning</title>
+    <link href="https://ileiwang.cc/2020/11/10/machine-learning/"/>
+    <id>https://ileiwang.cc/2020/11/10/machine-learning/</id>
+    <published>2020-11-10T03:07:00.000Z</published>
+    <updated>2020-11-10T03:35:12.576Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h2 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h2><hr><h3 id="神经网络与深度学习"><a href="#神经网络与深度学习" class="headerlink" title="神经网络与深度学习"></a><a href="https://nndl.github.io/" target="_blank" rel="noopener">神经网络与深度学习</a></h3><hr><h3 id="动手学深度学习-MXNet"><a href="#动手学深度学习-MXNet" class="headerlink" title="动手学深度学习(MXNet)"></a><a href="http://zh.d2l.ai/index.html" target="_blank" rel="noopener">动手学深度学习(MXNet)</a></h3><hr><h3 id="动手学深度学习-PyTorch"><a href="#动手学深度学习-PyTorch" class="headerlink" title="动手学深度学习(PyTorch)"></a><a href="https://tangshusen.me/Dive-into-DL-PyTorch/" target="_blank" rel="noopener">动手学深度学习(PyTorch)</a></h3><hr><h3 id="PyTorch"><a href="#PyTorch" class="headerlink" title="PyTorch"></a><a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a></h3><hr><h3 id="NumPy"><a href="#NumPy" class="headerlink" title="NumPy"></a><a href="https://numpy.org/" target="_blank" rel="noopener">NumPy</a></h3><hr><h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a><a href="https://pandas.pydata.org/" target="_blank" rel="noopener">pandas</a></h3><hr><h3 id="TensorFlow"><a href="#TensorFlow" class="headerlink" title="TensorFlow"></a><a href="https://tensorflow.google.cn/" target="_blank" rel="noopener">TensorFlow</a></h3><hr><h3 id="Keras"><a href="#Keras" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr><h3 id="Keras-1"><a href="#Keras-1" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr><h3 id="Keras-2"><a href="#Keras-2" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr><h3 id="Keras-3"><a href="#Keras-3" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr><h3 id="Keras-4"><a href="#Keras-4" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr><h3 id="Keras-5"><a href="#Keras-5" class="headerlink" title="Keras"></a><a href="https://keras.io/zh/" target="_blank" rel="noopener">Keras</a></h3><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+      <category term="Collections" scheme="https://ileiwang.cc/categories/Collections/"/>
+    
+    
+      <category term="Collections" scheme="https://ileiwang.cc/tags/Collections/"/>
+    
+      <category term="Websites" scheme="https://ileiwang.cc/tags/Websites/"/>
+    
+      <category term="Machine Learning" scheme="https://ileiwang.cc/tags/Machine-Learning/"/>
+    
+      <category term="Deep Learning" scheme="https://ileiwang.cc/tags/Deep-Learning/"/>
+    
+      <category term="Python" scheme="https://ileiwang.cc/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring Cloud</title>
@@ -50,9 +83,9 @@
     <link href="https://ileiwang.cc/2020/06/02/book-collections/"/>
     <id>https://ileiwang.cc/2020/06/02/book-collections/</id>
     <published>2020-06-02T14:43:00.000Z</published>
-    <updated>2020-06-03T15:05:15.370Z</updated>
+    <updated>2020-07-16T12:51:26.305Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Docker开发实践"><a href="#Docker开发实践" class="headerlink" title="Docker开发实践"></a><a href="https://www.jb51.net/books/616418.html" target="_blank" rel="noopener">Docker开发实践</a></h3>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><hr><h3 id="Docker开发实践"><a href="#Docker开发实践" class="headerlink" title="Docker开发实践"></a><a href="https://www.jb51.net/books/616418.html" target="_blank" rel="noopener">Docker开发实践</a></h3><hr>]]></content>
     
     <summary type="html">
     
@@ -93,9 +126,9 @@
       <category term="Collections" scheme="https://ileiwang.cc/categories/Collections/"/>
     
     
-      <category term="PHP" scheme="https://ileiwang.cc/tags/PHP/"/>
-    
       <category term="Collections" scheme="https://ileiwang.cc/tags/Collections/"/>
+    
+      <category term="PHP" scheme="https://ileiwang.cc/tags/PHP/"/>
     
   </entry>
   
@@ -120,9 +153,9 @@
       <category term="Collections" scheme="https://ileiwang.cc/categories/Collections/"/>
     
     
-      <category term="Collections" scheme="https://ileiwang.cc/tags/Collections/"/>
-    
       <category term="Article" scheme="https://ileiwang.cc/tags/Article/"/>
+    
+      <category term="Collections" scheme="https://ileiwang.cc/tags/Collections/"/>
     
   </entry>
   
